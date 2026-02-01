@@ -24,7 +24,7 @@ const CONFIG = {
         first: {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            noBtn: "No (don't you dare pick this one)",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
         second: {
@@ -44,13 +44,13 @@ const CONFIG = {
     loveMessages: {
         extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
         high: "YEY! 🚀💝",              // Shows when they go past 1000%
-        normal: "yey! 🥰"                           // Shows when they go past 100%
+        normal: "you should move it more :0"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yey! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "yey see you on valentines!",
+        message: "check your locker hehe",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
