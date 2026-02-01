@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "salma",
+    valentineName: "salma!",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -25,7 +25,7 @@ const CONFIG = {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No (don't you dare pick this one)",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "YESSSSSSSSS"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
@@ -34,24 +34,24 @@ const CONFIG = {
         },
         third: {
             text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            yesBtn: "Yes!!",                                             // Text for "Yes" button
+            noBtn: "No (🥲)"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "YEY! 🚀💝",              // Shows when they go past 1000%
+        extreme: "YEYYY",  // Shows when they go past 5000%
+        high: "yey",              // Shows when they go past 1000%
         normal: "you should move it more :0"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yey! I'm the luckiest person in the world! 🎉💝💖💝💓",
+        title: "yey im so lucky",
         message: "check your locker hehe",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        emojis: "💕💕💕💕💕💕💕"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -69,8 +69,8 @@ const CONFIG = {
     animations: {
         floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
+        //bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        //heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
     // Background Music (Optional)
